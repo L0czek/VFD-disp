@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "footprint")(type "KiCad")(uri "${KIPRJMOD}/footprint.pretty")(options "")(descr "")(disabled))
+  (lib (name "ivlm3-5_7")(type "KiCad")(uri "${KIPRJMOD}/thirdparty/ivlm3-5_7.pretty")(options "")(descr ""))
+)
