@@ -13320,6 +13320,28 @@
 			)
 		)
 	)
+	(global_label "F_PWM"
+		(shape input)
+		(at 224.79 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2d817ffb-c63a-464e-81b7-6208e1b7827f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 234.0042 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RX2"
 		(shape input)
 		(at 224.79 128.27 0)
@@ -13404,6 +13426,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "{slash}HV_EN"
+		(shape input)
+		(at 224.79 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4391459b-b64b-422e-9991-8c9aabd4174a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 234.9719 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
