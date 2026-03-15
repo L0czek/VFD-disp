@@ -12313,6 +12313,16 @@
 		)
 		(uuid "30c6099e-e6b9-4853-a82b-4c67ce51089c")
 	)
+	(label "4728_RDY"
+		(at 87.63 304.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "333977ad-c229-47ae-a8ff-02ad096fb504")
+	)
 	(label "G3"
 		(at 369.57 135.89 0)
 		(effects
@@ -12622,6 +12632,16 @@
 			(justify left bottom)
 		)
 		(uuid "b2f433a0-133f-4edf-8399-c0084a8bf1c6")
+	)
+	(label "NEG_LDAC"
+		(at 87.63 302.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b71750fe-969b-4967-93b5-080ef21d8a8e")
 	)
 	(label "GREEN6"
 		(at 471.17 124.46 0)
