@@ -1,0 +1,5 @@
+(version 1)
+(rule smd_pad_track_clearance
+  (constraint clearance (min 0.15mm))
+  (condition "((A.Type == 'Pad' && A.Pad_Type == 'SMD' && B.Type == 'Track') || (B.Type == 'Pad' && B.Pad_Type == 'SMD' && A.Type == 'Track'))")
+)
