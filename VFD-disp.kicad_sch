@@ -4309,48 +4309,135 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Memory_NVRAM:FM24C64B"
+		(symbol "Mechanical:MountingHole_Pad_MP"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 1.016)
+				(hide yes)
 			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad_MP"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection as pad named MP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_MP_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_MP_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Memory_EEPROM:AT24CS01-STUM"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -5.08 8.89 0)
+				(at -7.62 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "FM24C64B"
-				(at 6.35 -8.89 0)
+			(property "Value" "AT24CS01-STUM"
+				(at 2.54 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-				(at 0 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.cypress.com/file/41651/download"
-				(at 0 13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "64Kb serial FRAM nonvolatile Memory, SOIC-8"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4359,7 +4446,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "FRAM I2C Serial 5V FRAM NVRAM"
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8815-SEEPROM-AT24CS01-02-Datasheet.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4368,7 +4455,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+			(property "Description" "I2C Serial EEPROM, 1Kb (128x8) with Unique Serial Number, SOT-23-5"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4377,7 +4464,25 @@
 					(hide yes)
 				)
 			)
-			(symbol "FM24C64B_0_1"
+			(property "ki_keywords" "I2C Serial EEPROM Nonvolatile Memory"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AT24CS01-STUM_1_1"
 				(rectangle
 					(start -7.62 5.08)
 					(end 7.62 -5.08)
@@ -4389,73 +4494,17 @@
 						(type background)
 					)
 				)
-			)
-			(symbol "FM24C64B_1_1"
-				(pin input line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "A0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at 0 7.62 270)
 					(length 2.54)
-					(name "VDD"
+					(name "VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4466,14 +4515,14 @@
 				(pin power_in line
 					(at 0 -7.62 90)
 					(length 2.54)
-					(name "VSS"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4491,7 +4540,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4509,7 +4558,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4527,7 +4576,7 @@
 							)
 						)
 					)
-					(number "7"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8498,12 +8547,6 @@
 		(uuid "178c7909-a162-4686-a699-f142ccdf2867")
 	)
 	(junction
-		(at 88.9 355.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "192a84d3-a836-4ff1-94a3-a3389b8256db")
-	)
-	(junction
 		(at 257.81 203.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8544,12 +8587,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2620d6a2-b4b8-49d6-ad18-2c9d802adbc5")
-	)
-	(junction
-		(at 88.9 353.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2a3d3cda-083f-45fd-bdaa-efefb15f5d1b")
 	)
 	(junction
 		(at 212.09 264.16)
@@ -9531,16 +9568,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 353.06) (xy 96.52 353.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "012220da-9c26-411f-9a4a-b61ac0c62b3c")
-	)
-	(wire
-		(pts
 			(xy 212.09 227.33) (xy 212.09 245.11)
 		)
 		(stroke
@@ -9568,16 +9595,6 @@
 			(type default)
 		)
 		(uuid "053767fd-c19e-47cd-9cd4-8a136f55ccf4")
-	)
-	(wire
-		(pts
-			(xy 88.9 355.6) (xy 88.9 360.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05482cdf-77e7-47e3-8889-d143778e209d")
 	)
 	(wire
 		(pts
@@ -9778,16 +9795,6 @@
 			(type default)
 		)
 		(uuid "132a1f22-04d2-49b8-9424-8ece47ab9d70")
-	)
-	(wire
-		(pts
-			(xy 88.9 353.06) (xy 88.9 355.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "143799cd-5933-4a20-a237-047327bceffe")
 	)
 	(wire
 		(pts
@@ -11141,16 +11148,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 350.52) (xy 88.9 353.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "665827f8-6651-4643-acd7-0dcef9d90c23")
-	)
-	(wire
-		(pts
 			(xy 119.38 124.46) (xy 119.38 125.73)
 		)
 		(stroke
@@ -11558,16 +11555,6 @@
 			(type default)
 		)
 		(uuid "85098bf1-da73-4631-bc33-47a1d0614a2f")
-	)
-	(wire
-		(pts
-			(xy 96.52 350.52) (xy 88.9 350.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8543d471-db40-44e9-adcd-6ba9fd97552c")
 	)
 	(wire
 		(pts
@@ -12878,16 +12865,6 @@
 			(type default)
 		)
 		(uuid "df718842-1b25-4f07-b2fc-4587e09a015e")
-	)
-	(wire
-		(pts
-			(xy 88.9 355.6) (xy 96.52 355.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df760ca9-5b67-497f-a274-4aaa1bcb0ac3")
 	)
 	(wire
 		(pts
@@ -16856,72 +16833,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 88.9 360.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1ede3153-2856-4d50-ad1d-3271f94a6f95")
-		(property "Reference" "#PWR096"
-			(at 88.9 367.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 88.9 364.8131 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 360.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 360.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 360.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5bb3bc77-be14-4f5f-a958-7badae0a05dd")
-		)
-		(instances
-			(project ""
-				(path "/cae6bc37-1dab-478a-ae03-a930606a6e90"
-					(reference "#PWR096")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 281.94 241.3 0)
 		(unit 1)
@@ -19933,6 +19844,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 64.77 374.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "492313bc-4a74-44e2-8c0e-1a6aa9b5ae81")
+		(property "Reference" "#PWR096"
+			(at 64.77 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.77 379.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 64.77 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5d348d0-55d3-4345-b2bb-2c724440fa20")
+		)
+		(instances
+			(project ""
+				(path "/cae6bc37-1dab-478a-ae03-a930606a6e90"
+					(reference "#PWR096")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 205.74 231.14 0)
 		(unit 1)
@@ -22588,6 +22565,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 69.85 379.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a3b2b5b-f062-485f-abd7-4ca778e62342")
+		(property "Reference" "#PWR0116"
+			(at 69.85 386.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.85 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 379.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 379.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.85 379.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "450a3967-622c-4e15-b202-7e16599bafdb")
+		)
+		(instances
+			(project "VFD-disp"
+				(path "/cae6bc37-1dab-478a-ae03-a930606a6e90"
+					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 102.87 215.9 0)
 		(unit 1)
@@ -23505,6 +23548,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad_MP")
+		(at 69.85 377.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82a515b2-1878-4239-bbff-db63e74f86e6")
+		(property "Reference" "H2"
+			(at 72.39 374.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad_MP"
+			(at 72.39 377.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+			(at 69.85 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection as pad named MP"
+			(at 69.85 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "MP"
+			(uuid "d631a406-a0ad-4ec6-ab8e-4c8a69e6e319")
+		)
+		(instances
+			(project "VFD-disp"
+				(path "/cae6bc37-1dab-478a-ae03-a930606a6e90"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 226.06 322.58 0)
 		(unit 1)
@@ -24299,6 +24409,73 @@
 			(project "VFD-disp"
 				(path "/cae6bc37-1dab-478a-ae03-a930606a6e90"
 					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad_MP")
+		(at 64.77 372.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e698419-285a-4f91-a7bf-7c303b15bc02")
+		(property "Reference" "H1"
+			(at 67.31 369.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad_MP"
+			(at 67.31 372.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+			(at 64.77 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection as pad named MP"
+			(at 64.77 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "MP"
+			(uuid "2eea4481-fa59-4059-8f0f-31348eb1cf90")
+		)
+		(instances
+			(project ""
+				(path "/cae6bc37-1dab-478a-ae03-a930606a6e90"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -28327,94 +28504,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Memory_NVRAM:FM24C64B")
-		(at 106.68 353.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c1503b8f-5726-4dc3-8333-a9393238d7a1")
-		(property "Reference" "U9"
-			(at 108.8233 343.8355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "FM24C64B"
-			(at 108.8233 346.2598 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 106.68 341.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.cypress.com/file/41651/download"
-			(at 106.68 339.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "64Kb serial FRAM nonvolatile Memory, SOIC-8"
-			(at 106.68 353.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "df157373-4f20-4407-b6f1-9daede5a8ccb")
-		)
-		(pin "6"
-			(uuid "8fd6f581-dadb-490b-9eb8-29eed5b9b8f7")
-		)
-		(pin "3"
-			(uuid "7f106147-d97f-4b0d-b65a-783ffdcbefab")
-		)
-		(pin "4"
-			(uuid "7383bf18-1dfc-48b3-accd-be9173bb783a")
-		)
-		(pin "1"
-			(uuid "ffd2ffc5-6e86-4e56-83f9-049499c3b6c9")
-		)
-		(pin "7"
-			(uuid "fc581c26-c0bd-4001-908c-a2180ac52326")
-		)
-		(pin "8"
-			(uuid "8e04c5e7-c573-4759-aae6-9f04a2b3eef9")
-		)
-		(pin "2"
-			(uuid "ce6734ad-ee9c-49a3-b926-d04fe8495c84")
-		)
-		(instances
-			(project ""
-				(path "/cae6bc37-1dab-478a-ae03-a930606a6e90"
-					(reference "U9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 336.55 109.22 0)
 		(unit 1)
@@ -30088,6 +30177,85 @@
 			(project ""
 				(path "/cae6bc37-1dab-478a-ae03-a930606a6e90"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Memory_EEPROM:AT24CS01-STUM")
+		(at 106.68 353.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dfa4356c-db60-4195-ba68-abe41248dce5")
+		(property "Reference" "U15"
+			(at 97.79 351.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "AT24CS01-STUM"
+			(at 97.79 354.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 106.68 353.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8815-SEEPROM-AT24CS01-02-Datasheet.pdf"
+			(at 106.68 353.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "I2C Serial EEPROM, 1Kb (128x8) with Unique Serial Number, SOT-23-5"
+			(at 106.68 353.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7036d4ca-db7e-4eda-a035-d68985fbcba6")
+		)
+		(pin "2"
+			(uuid "0712dcf1-5c82-429c-92c4-4636f6cbde90")
+		)
+		(pin "5"
+			(uuid "6ae1faaf-0a57-4011-846a-22ee94b4dce8")
+		)
+		(pin "1"
+			(uuid "62e2f8d2-33f0-4863-a522-0a7b01c90e89")
+		)
+		(pin "4"
+			(uuid "61360f1e-88fc-41f0-b4ce-e2d64a88bcdc")
+		)
+		(instances
+			(project ""
+				(path "/cae6bc37-1dab-478a-ae03-a930606a6e90"
+					(reference "U15")
 					(unit 1)
 				)
 			)
