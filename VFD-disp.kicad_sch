@@ -9082,6 +9082,36 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "VPP <= 27V"
+		(exclude_from_sim no)
+		(at 304.292 330.454 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "23b7c1b1-3550-4e9a-83a1-8cb6275671a1")
+	)
+	(text "F = 3.1V"
+		(exclude_from_sim no)
+		(at 338.836 295.402 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "80ded1db-708d-4b75-b5c3-6ad8fa5360c5")
+	)
+	(text "Jebać ten kwarc nie ma w TME"
+		(exclude_from_sim no)
+		(at 131.064 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "948e9588-3903-4e85-9488-05689ea4ef04")
+	)
 	(junction
 		(at 275.59 302.26)
 		(diameter 0)
@@ -9135,6 +9165,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "216535d9-1d7a-4241-9587-494a8ca03a80")
+	)
+	(junction
+		(at 435.61 234.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24338725-8a5f-4c2a-881b-8454eb393990")
 	)
 	(junction
 		(at 393.7 259.08)
@@ -9197,6 +9233,12 @@
 		(uuid "4e20919c-ec92-4daa-b169-054f1a1cf5c0")
 	)
 	(junction
+		(at 287.02 302.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50be35a7-a22a-41c9-acac-ab76a1c6f436")
+	)
+	(junction
 		(at 223.52 234.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9213,6 +9255,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b1fea43-0b38-4deb-8465-e8b8b2798f67")
+	)
+	(junction
+		(at 208.28 350.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5cb2b552-74d3-4901-95d1-53e463bbb78c")
 	)
 	(junction
 		(at 290.83 234.95)
@@ -9341,6 +9389,12 @@
 		(uuid "7e9e5e85-b49c-4aaf-9524-83383a2c01f2")
 	)
 	(junction
+		(at 190.5 365.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "871c6de6-83ce-4f9c-b77d-33cbca4a7e4b")
+	)
+	(junction
 		(at 195.58 294.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9413,7 +9467,13 @@
 		(uuid "a4df4d59-c6eb-4b10-b38b-3b7baebc1b7c")
 	)
 	(junction
-		(at 302.26 302.26)
+		(at 299.72 302.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa5fbf92-2e0f-4b4f-9093-7644c731a7a0")
+	)
+	(junction
+		(at 320.04 302.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae1e0252-cbd9-46e4-a8d9-8b70603e3fd6")
@@ -9431,22 +9491,16 @@
 		(uuid "b45b1d58-3be6-4706-a198-0e160ea7b3b2")
 	)
 	(junction
-		(at 281.94 302.26)
+		(at 190.5 337.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b4d6d3e7-8b8c-484e-8bb2-5828729367f3")
+		(uuid "b9f348e5-bfb2-468d-8074-54a28d917a52")
 	)
 	(junction
 		(at 298.45 234.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba18cdb1-6827-4b76-89a2-d8892c59b9b9")
-	)
-	(junction
-		(at 187.96 365.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba3d66de-cdd0-4d88-a421-6777ab8eb301")
 	)
 	(junction
 		(at 462.28 153.67)
@@ -9509,12 +9563,6 @@
 		(uuid "ccb0408a-ed9e-46f6-bc69-15e736eefabd")
 	)
 	(junction
-		(at 287.02 302.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dfbbea92-6c81-4c5e-8fc3-29abddcdd657")
-	)
-	(junction
 		(at 492.76 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9551,16 +9599,10 @@
 		(uuid "eb95e650-e2bd-43df-b982-9503cf9ffe98")
 	)
 	(junction
-		(at 306.07 313.69)
+		(at 323.85 313.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee3a5f4d-7cc9-41d5-a241-93b64e48c946")
-	)
-	(junction
-		(at 208.28 350.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ef287e1a-92c0-44e7-800e-f050aff1b371")
 	)
 	(junction
 		(at 55.88 242.57)
@@ -9615,7 +9657,7 @@
 		(uuid "1e7d0514-cb54-4179-b2cd-508bc1f88594")
 	)
 	(no_connect
-		(at 302.26 312.42)
+		(at 320.04 312.42)
 		(uuid "1eb21239-c9c5-47f8-8ff0-87c5efc8ec76")
 	)
 	(no_connect
@@ -10192,7 +10234,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 302.26) (xy 281.94 302.26)
+			(xy 275.59 302.26) (xy 287.02 302.26)
 		)
 		(stroke
 			(width 0)
@@ -10422,7 +10464,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 302.26) (xy 309.88 302.26)
+			(xy 320.04 302.26) (xy 327.66 302.26)
 		)
 		(stroke
 			(width 0)
@@ -10442,7 +10484,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 308.61) (xy 306.07 313.69)
+			(xy 323.85 308.61) (xy 323.85 313.69)
 		)
 		(stroke
 			(width 0)
@@ -10612,16 +10654,6 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 302.26) (xy 302.26 302.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "209ca823-388b-4f89-9039-b53cdb344786")
-	)
-	(wire
-		(pts
 			(xy 339.09 57.15) (xy 321.31 57.15)
 		)
 		(stroke
@@ -10649,6 +10681,16 @@
 			(type default)
 		)
 		(uuid "2263ffd6-57af-4169-b686-3fec3c0918e7")
+	)
+	(wire
+		(pts
+			(xy 299.72 302.26) (xy 320.04 302.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2479bcdb-3fff-4514-a374-94132aa0855d")
 	)
 	(wire
 		(pts
@@ -10732,7 +10774,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 120.65) (xy 111.76 120.65)
+			(xy 99.06 120.65) (xy 111.76 120.65)
 		)
 		(stroke
 			(width 0)
@@ -10762,7 +10804,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 350.52) (xy 208.28 350.52)
+			(xy 205.74 350.52) (xy 208.28 350.52)
 		)
 		(stroke
 			(width 0)
@@ -10862,7 +10904,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 302.26) (xy 287.02 304.8)
+			(xy 299.72 302.26) (xy 299.72 304.8)
 		)
 		(stroke
 			(width 0)
@@ -10962,6 +11004,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 337.82) (xy 227.33 337.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35bbb046-e8f9-4d53-8809-a63258c6ff63")
+	)
+	(wire
+		(pts
 			(xy 468.63 137.16) (xy 483.87 137.16)
 		)
 		(stroke
@@ -10979,6 +11031,16 @@
 			(type default)
 		)
 		(uuid "3794b37e-2d40-4c6e-b527-593b0dc4bc43")
+	)
+	(wire
+		(pts
+			(xy 190.5 365.76) (xy 212.09 365.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3900888f-84b1-4f60-a3c2-3d8d64518f22")
 	)
 	(wire
 		(pts
@@ -11032,7 +11094,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 302.26) (xy 302.26 304.8)
+			(xy 320.04 302.26) (xy 320.04 304.8)
 		)
 		(stroke
 			(width 0)
@@ -11159,16 +11221,6 @@
 			(type default)
 		)
 		(uuid "4594cc7d-2158-4496-b8e3-36ebbfac1a99")
-	)
-	(wire
-		(pts
-			(xy 187.96 365.76) (xy 212.09 365.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45aab87f-6e71-425d-8391-320992cf3b04")
 	)
 	(wire
 		(pts
@@ -11302,7 +11354,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 313.69) (xy 309.88 313.69)
+			(xy 323.85 313.69) (xy 327.66 313.69)
 		)
 		(stroke
 			(width 0)
@@ -11339,16 +11391,6 @@
 			(type default)
 		)
 		(uuid "4d7b7a82-a712-40a3-a399-97f65073bb32")
-	)
-	(wire
-		(pts
-			(xy 281.94 302.26) (xy 287.02 302.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d9fa89a-6f70-43fa-89c8-c63fdc1090d9")
 	)
 	(wire
 		(pts
@@ -11449,6 +11491,16 @@
 			(type default)
 		)
 		(uuid "56c98cf4-27c3-4af5-9e77-2265e7b58893")
+	)
+	(wire
+		(pts
+			(xy 287.02 302.26) (xy 299.72 302.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "574f1564-cf8d-46fc-9bf1-d494b8750de2")
 	)
 	(wire
 		(pts
@@ -11589,6 +11641,16 @@
 			(type default)
 		)
 		(uuid "5ceaa103-a557-4c34-8ecd-c8d2df36b441")
+	)
+	(wire
+		(pts
+			(xy 257.81 297.18) (xy 308.61 297.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e40ab29-912c-493c-89e5-47a92b8d9163")
 	)
 	(wire
 		(pts
@@ -12152,7 +12214,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 302.26) (xy 320.04 302.26)
+			(xy 335.28 302.26) (xy 337.82 302.26)
 		)
 		(stroke
 			(width 0)
@@ -12202,7 +12264,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 297.18) (xy 290.83 313.69)
+			(xy 308.61 297.18) (xy 308.61 313.69)
 		)
 		(stroke
 			(width 0)
@@ -12692,16 +12754,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 297.18) (xy 290.83 297.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acdc2840-5f3f-4da4-bb22-35828715d5d5")
-	)
-	(wire
-		(pts
 			(xy 130.81 66.04) (xy 130.81 82.55)
 		)
 		(stroke
@@ -12739,6 +12791,16 @@
 			(type default)
 		)
 		(uuid "b0624e4c-2a17-48b1-9da4-a8872d56558c")
+	)
+	(wire
+		(pts
+			(xy 435.61 234.95) (xy 450.85 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0c7d4a0-0f64-4c00-83ae-7df2e9386c4e")
 	)
 	(wire
 		(pts
@@ -13002,7 +13064,7 @@
 	)
 	(wire
 		(pts
-			(xy 433.07 234.95) (xy 450.85 234.95)
+			(xy 433.07 234.95) (xy 435.61 234.95)
 		)
 		(stroke
 			(width 0)
@@ -13192,7 +13254,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 347.98) (xy 187.96 337.82)
+			(xy 190.5 337.82) (xy 190.5 349.25)
 		)
 		(stroke
 			(width 0)
@@ -13232,7 +13294,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 365.76) (xy 187.96 355.6)
+			(xy 190.5 365.76) (xy 190.5 356.87)
 		)
 		(stroke
 			(width 0)
@@ -13252,7 +13314,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 313.69) (xy 306.07 313.69)
+			(xy 308.61 313.69) (xy 323.85 313.69)
 		)
 		(stroke
 			(width 0)
@@ -13272,7 +13334,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 302.26) (xy 281.94 304.8)
+			(xy 287.02 302.26) (xy 287.02 304.8)
 		)
 		(stroke
 			(width 0)
@@ -13482,7 +13544,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 337.82) (xy 227.33 337.82)
+			(xy 187.96 337.82) (xy 190.5 337.82)
 		)
 		(stroke
 			(width 0)
@@ -13652,7 +13714,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 313.69) (xy 306.07 316.23)
+			(xy 323.85 313.69) (xy 323.85 316.23)
 		)
 		(stroke
 			(width 0)
@@ -13702,7 +13764,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 365.76) (xy 187.96 365.76)
+			(xy 177.8 365.76) (xy 190.5 365.76)
 		)
 		(stroke
 			(width 0)
@@ -14586,7 +14648,7 @@
 	)
 	(global_label "F"
 		(shape input)
-		(at 320.04 302.26 0)
+		(at 337.82 302.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14596,7 +14658,7 @@
 		)
 		(uuid "08879514-55d7-47b5-b720-239f67efbdb6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 324.1138 302.26 0)
+			(at 341.8938 302.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15018,7 +15080,7 @@
 	)
 	(global_label "{slash}HV_EN"
 		(shape input)
-		(at 201.93 350.52 180)
+		(at 205.74 350.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15028,7 +15090,7 @@
 		)
 		(uuid "429bd665-f52d-4c8e-bf48-4691fab8f7ff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.7481 350.52 0)
+			(at 195.5581 350.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16074,7 +16136,7 @@
 	)
 	(global_label "F_ADJ"
 		(shape input)
-		(at 317.5 313.69 0)
+		(at 335.28 313.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16084,7 +16146,7 @@
 		)
 		(uuid "fb5bf256-52d9-40d8-9cae-49b4ce68a556")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 325.8676 313.69 0)
+			(at 343.6476 313.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16119,7 +16181,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 272.161 209.4921 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16163,6 +16225,17 @@
 				)
 			)
 		)
+		(property "TME_SYMBOL" ""
+			(at 269.24 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "497f0a01-127f-4fde-b90c-fbfa6caefbd1")
 		)
@@ -16191,7 +16264,7 @@
 		(fields_autoplaced yes)
 		(uuid "0317e637-0c1e-4375-9720-903c7b8817f8")
 		(property "Reference" "R10"
-			(at 488.95 167.5595 90)
+			(at 488.95 166.37 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16200,8 +16273,8 @@
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 488.95 169.9838 90)
+		(property "Value" "10"
+			(at 488.95 168.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16234,6 +16307,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 488.95 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" ""
+			(at 488.95 172.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16636,6 +16720,17 @@
 				)
 			)
 		)
+		(property "TME_SYMBOL" ""
+			(at 220.98 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "caeac56a-2254-4854-b90e-d61cf2791bf7")
 		)
@@ -16741,7 +16836,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "08065228-19b1-48b6-9c31-43a96ddd5cc7")
 		(property "Reference" "C10"
@@ -16755,7 +16850,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "Giga cap"
 			(at 454.66 240.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16799,6 +16894,17 @@
 				)
 			)
 		)
+		(property "TME_SYMBOL" ""
+			(at 450.85 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "512ee0a5-0b36-4d36-b160-9bb101df73b9")
 		)
@@ -16823,7 +16929,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "09a13a2a-a109-4c0f-ae88-9e4a569818b7")
 		(property "Reference" "C9"
@@ -16837,7 +16943,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 302.26 240.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16881,6 +16987,17 @@
 				)
 			)
 		)
+		(property "TME_SYMBOL" ""
+			(at 298.45 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ba9538ee-7c98-4d77-91e1-0e92cfa6d66f")
 		)
@@ -16898,7 +17015,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 281.94 312.42 0)
+		(at 287.02 312.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16909,7 +17026,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ae3d2b5-f2d5-4707-844a-9229c587cf11")
 		(property "Reference" "#PWR048"
-			(at 281.94 318.77 0)
+			(at 287.02 318.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16920,7 +17037,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 281.94 316.5531 0)
+			(at 287.02 316.5531 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16930,7 +17047,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 281.94 312.42 0)
+			(at 287.02 312.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16941,7 +17058,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 281.94 312.42 0)
+			(at 287.02 312.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16952,7 +17069,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 281.94 312.42 0)
+			(at 287.02 312.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17119,6 +17236,17 @@
 				)
 			)
 		)
+		(property "TME_SYMBOL" ""
+			(at 100.33 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bc719623-24b8-456c-bebf-a245df87858a")
 		)
@@ -17143,7 +17271,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "114917c5-7b38-4d23-b399-f556eda16c81")
 		(property "Reference" "Y1"
@@ -17189,6 +17317,17 @@
 			)
 		)
 		(property "Description" "Two pin crystal"
+			(at 130.81 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" ""
 			(at 130.81 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -17671,6 +17810,17 @@
 				)
 			)
 		)
+		(property "TME_SYMBOL" ""
+			(at 83.82 295.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d3af6c45-0a63-4761-afb9-c87996e07ccc")
 		)
@@ -17688,7 +17838,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 313.69 302.26 90)
+		(at 331.47 302.26 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17699,7 +17849,7 @@
 		(fields_autoplaced yes)
 		(uuid "1cd1e6c7-7eb2-41b1-b94a-ac9a4b85af63")
 		(property "Reference" "F5"
-			(at 313.69 297.3535 90)
+			(at 331.47 295.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17708,8 +17858,8 @@
 				)
 			)
 		)
-		(property "Value" "Fuse"
-			(at 313.69 299.7778 90)
+		(property "Value" "750mA"
+			(at 331.47 298.45 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17719,7 +17869,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
-			(at 313.69 304.038 90)
+			(at 331.47 304.038 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17730,7 +17880,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 313.69 302.26 0)
+			(at 331.47 302.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17741,7 +17891,18 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 313.69 302.26 0)
+			(at 331.47 302.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" "SR075-06"
+			(at 331.47 302.26 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17779,7 +17940,7 @@
 		(fields_autoplaced yes)
 		(uuid "1d60a85d-b016-44bc-8790-ff7b4e16d461")
 		(property "Reference" "R29"
-			(at 213.868 268.0278 0)
+			(at 214.63 267.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17789,8 +17950,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 213.868 270.4521 0)
+		(property "Value" "10k"
+			(at 214.63 270.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17833,6 +17994,17 @@
 				)
 			)
 		)
+		(property "TME_SYMBOL" ""
+			(at 212.09 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "60408f4d-8208-4cb0-b7a0-06430e960824")
 		)
@@ -17861,7 +18033,7 @@
 		(fields_autoplaced yes)
 		(uuid "21006c0d-c124-4faa-bc7a-880ff0609289")
 		(property "Reference" "C25"
-			(at 284.861 239.1988 0)
+			(at 285.75 239.1409 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17871,8 +18043,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
-			(at 284.861 241.6231 0)
+		(property "Value" "150uF"
+			(at 285.75 241.6809 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17905,6 +18077,17 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 281.94 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" "EEEFT1A151AR"
 			(at 281.94 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -18109,7 +18292,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 332.74 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18143,6 +18326,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 328.93 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" ""
 			(at 328.93 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -18269,7 +18463,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 130.81 209.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18303,6 +18497,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 127 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" ""
 			(at 127 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -18351,7 +18556,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200-600p"
+		(property "Value" "200-600pF"
 			(at 76.2 241.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18385,6 +18590,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 72.39 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" ""
 			(at 72.39 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -18622,6 +18838,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 100.33 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" ""
 			(at 100.33 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -19258,6 +19485,17 @@
 				)
 			)
 		)
+		(property "TME_SYMBOL" ""
+			(at 375.92 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f3b273dc-d176-4eb2-a60a-d907fe4fa77a")
 		)
@@ -19470,7 +19708,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "r"
+		(property "Value" "40m"
 			(at 269.24 363.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19504,6 +19742,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 266.7 361.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" ""
 			(at 266.7 361.95 0)
 			(hide yes)
 			(show_name no)
@@ -19925,7 +20174,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -19977,6 +20226,17 @@
 		)
 		(property "Description" "HV5812WG"
 			(at 360.426 37.846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" ""
+			(at 351.79 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20300,6 +20560,17 @@
 				)
 			)
 		)
+		(property "TME_SYMBOL" ""
+			(at 480.06 287.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "3c2ff0ea-71d4-43b2-925a-b354b2189939")
 		)
@@ -20384,6 +20655,17 @@
 			)
 		)
 		(property "Description" "Adjustable Output Voltage, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator, High Voltage Input, TO-263"
+			(at 245.11 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" ""
 			(at 245.11 299.72 0)
 			(hide yes)
 			(show_name no)
@@ -20498,18 +20780,17 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 287.02 308.61 0)
+		(at 299.72 308.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
+		(dnp yes)
 		(uuid "3d87bb0c-7fd1-49a2-b68f-20227de19716")
 		(property "Reference" "C37"
-			(at 290.83 307.3399 0)
+			(at 303.022 307.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20519,8 +20800,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 290.83 309.8799 0)
+		(property "Value" "100nF"
+			(at 303.022 309.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20531,7 +20812,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric"
-			(at 287.9852 312.42 0)
+			(at 300.6852 312.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20542,7 +20823,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 287.02 308.61 0)
+			(at 299.72 308.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20553,7 +20834,18 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 287.02 308.61 0)
+			(at 299.72 308.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" ""
+			(at 299.72 308.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20723,6 +21015,17 @@
 				)
 			)
 		)
+		(property "TME_SYMBOL" ""
+			(at 393.7 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3d58114f-105e-47b3-bc54-fc2784a3d709")
 		)
@@ -20829,7 +21132,7 @@
 		(fields_autoplaced yes)
 		(uuid "421e5ae0-f54d-402e-ba95-d365e287588d")
 		(property "Reference" "L4"
-			(at 269.24 230.3002 90)
+			(at 269.24 229.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20838,8 +21141,8 @@
 				)
 			)
 		)
-		(property "Value" "L"
-			(at 269.24 232.7245 90)
+		(property "Value" "100uH"
+			(at 269.24 232.41 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20872,6 +21175,17 @@
 		)
 		(property "Description" "Inductor"
 			(at 269.24 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" "PSDB1004NT101"
+			(at 269.24 234.95 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20951,6 +21265,17 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 500.38 332.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" ""
 			(at 500.38 332.74 0)
 			(hide yes)
 			(show_name no)
@@ -21056,6 +21381,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "TME_SYMBOL" ""
+			(at 285.75 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "10"
@@ -21252,6 +21588,17 @@
 				)
 			)
 		)
+		(property "TME_SYMBOL" ""
+			(at 441.96 332.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "ba803dcf-f9f7-4c5a-9a71-024a6df3d6c4")
 		)
@@ -21292,7 +21639,7 @@
 		(fields_autoplaced yes)
 		(uuid "47ba5dcf-c795-499b-ab94-19c8479f3cfd")
 		(property "Reference" "F1"
-			(at 60.96 218.6135 90)
+			(at 60.96 217.17 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21301,8 +21648,8 @@
 				)
 			)
 		)
-		(property "Value" "Fuse"
-			(at 60.96 221.0378 90)
+		(property "Value" "2A"
+			(at 60.96 219.71 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21344,6 +21691,17 @@
 				)
 			)
 		)
+		(property "TME_SYMBOL" "PTSLR08058V200"
+			(at 60.96 223.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0ebca151-b7c1-4916-a36d-94ee6159a8c6")
 		)
@@ -21361,7 +21719,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 306.07 320.04 0)
+		(at 323.85 320.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21372,7 +21730,7 @@
 		(fields_autoplaced yes)
 		(uuid "48284460-98cf-4f5b-97d0-839c9cad3042")
 		(property "Reference" "R16"
-			(at 307.848 318.8278 0)
+			(at 326.39 318.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21382,8 +21740,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 307.848 321.2521 0)
+		(property "Value" "10k"
+			(at 326.39 321.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21394,7 +21752,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 304.292 320.04 90)
+			(at 322.072 320.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21405,7 +21763,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 306.07 320.04 0)
+			(at 323.85 320.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21416,7 +21774,18 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 306.07 320.04 0)
+			(at 323.85 320.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" ""
+			(at 323.85 320.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21532,7 +21901,7 @@
 		(fields_autoplaced yes)
 		(uuid "49df8922-23c5-4078-9b64-76144aef8d2d")
 		(property "Reference" "C24"
-			(at 208.661 229.0388 0)
+			(at 209.55 228.9809 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21542,8 +21911,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
-			(at 208.661 231.4631 0)
+		(property "Value" "150uF"
+			(at 209.55 231.5209 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21576,6 +21945,17 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 205.74 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" "EEEFT1A151AR"
 			(at 205.74 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -21692,7 +22072,7 @@
 		(fields_autoplaced yes)
 		(uuid "4d9f954b-69eb-47d1-8bbb-3f9a751af7b5")
 		(property "Reference" "D3"
-			(at 263.652 307.0803 90)
+			(at 264.16 307.0224 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21702,8 +22082,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Schottky"
-			(at 263.652 309.5046 90)
+		(property "Value" "SS24"
+			(at 264.16 309.5624 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21746,6 +22126,17 @@
 				)
 			)
 		)
+		(property "TME_SYMBOL" ""
+			(at 261.62 308.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8f3637df-a068-4db0-b43a-a97e68968d65")
 		)
@@ -21774,7 +22165,7 @@
 		(fields_autoplaced yes)
 		(uuid "4e190ba1-e631-4c42-b0df-2bc71c36e268")
 		(property "Reference" "L1"
-			(at 238.76 333.1702 90)
+			(at 238.76 332.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21783,8 +22174,8 @@
 				)
 			)
 		)
-		(property "Value" "L"
-			(at 238.76 335.5945 90)
+		(property "Value" "100uH"
+			(at 238.76 335.28 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21817,6 +22208,17 @@
 		)
 		(property "Description" "Inductor"
 			(at 238.76 337.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" "PSDB1004NT101"
+			(at 238.76 337.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22020,7 +22422,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 279.4 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22054,6 +22456,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 275.59 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" ""
 			(at 275.59 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -22224,6 +22637,17 @@
 				)
 			)
 		)
+		(property "TME_SYMBOL" ""
+			(at 341.63 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "42e37e60-ae56-4656-9b90-66ecead2c60a")
 		)
@@ -22330,7 +22754,7 @@
 		(fields_autoplaced yes)
 		(uuid "57e592e2-5f62-4405-9143-82f15d305ba2")
 		(property "Reference" "C28"
-			(at 223.901 63.9388 0)
+			(at 224.79 63.8809 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22340,8 +22764,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
-			(at 223.901 66.3631 0)
+		(property "Value" "40uF"
+			(at 224.79 66.4209 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22384,6 +22808,17 @@
 				)
 			)
 		)
+		(property "TME_SYMBOL" "T491D476K010AT"
+			(at 220.98 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "878c8c27-78f4-4892-b62c-fe2d007fd6d6")
 		)
@@ -22408,7 +22843,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "581b8a84-5cd4-413f-b84e-128a31fc0d06")
 		(property "Reference" "C14"
@@ -22422,7 +22857,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 83.82 217.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22456,6 +22891,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 80.01 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" ""
 			(at 80.01 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -22538,6 +22984,17 @@
 			)
 		)
 		(property "Description" "ESP32-C6-WROOM-1/U is a module that supports 2.4 GHz Wi-Fi 6 (802.11 ax), Bluetooth® 5 (LE), Zigbee and Thread (802.15.4)"
+			(at 196.85 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" ""
 			(at 196.85 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -22711,6 +23168,17 @@
 				)
 			)
 		)
+		(property "TME_SYMBOL" ""
+			(at 134.62 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "345a0640-d35f-4e48-82f4-977cfb97d0b4")
 		)
@@ -22749,7 +23217,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 215.9 363.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22793,6 +23261,17 @@
 				)
 			)
 		)
+		(property "TME_SYMBOL" ""
+			(at 212.09 361.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7239b693-bf1d-49d6-8875-9445900d9bc2")
 		)
@@ -22810,7 +23289,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 302.26 308.61 0)
+		(at 320.04 308.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22821,7 +23300,7 @@
 		(fields_autoplaced yes)
 		(uuid "60bb3ba1-62ae-4005-bae0-ef5b3b164bce")
 		(property "Reference" "RV1"
-			(at 300.482 307.3978 0)
+			(at 317.5 307.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22831,8 +23310,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Potentiometer"
-			(at 300.482 309.8221 0)
+		(property "Value" "20k"
+			(at 317.5 309.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22843,7 +23322,7 @@
 			)
 		)
 		(property "Footprint" "Potentiometer_SMD:Potentiometer_Bourns_3269W_Vertical"
-			(at 302.26 308.61 0)
+			(at 320.04 308.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22854,7 +23333,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 302.26 308.61 0)
+			(at 320.04 308.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22865,7 +23344,18 @@
 			)
 		)
 		(property "Description" "Potentiometer"
-			(at 302.26 308.61 0)
+			(at 320.04 308.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" ""
+			(at 320.04 308.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22960,6 +23450,17 @@
 				)
 			)
 		)
+		(property "TME_SYMBOL" ""
+			(at 227.33 355.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b6e8fd06-b958-4b35-aeed-66aa4e0ff128")
 		)
@@ -22995,7 +23496,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 306.07 323.85 0)
+		(at 323.85 323.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23006,7 +23507,7 @@
 		(fields_autoplaced yes)
 		(uuid "65923dfc-dbf2-454d-b47a-afcc0a0e7170")
 		(property "Reference" "#PWR024"
-			(at 306.07 330.2 0)
+			(at 323.85 330.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23017,7 +23518,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 306.07 327.9831 0)
+			(at 323.85 327.9831 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23027,7 +23528,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 306.07 323.85 0)
+			(at 323.85 323.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23038,7 +23539,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 306.07 323.85 0)
+			(at 323.85 323.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23049,7 +23550,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 306.07 323.85 0)
+			(at 323.85 323.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23139,6 +23640,17 @@
 				)
 			)
 		)
+		(property "TME_SYMBOL" ""
+			(at 119.38 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "13"
 			(uuid "a8f71f1d-697d-478e-9a97-7066eb3e18ce")
 		)
@@ -23206,7 +23718,7 @@
 		(fields_autoplaced yes)
 		(uuid "669abe42-4ea4-4973-a0c8-5783588d691d")
 		(property "Reference" "L3"
-			(at 269.24 297.6102 90)
+			(at 269.24 297.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23215,8 +23727,8 @@
 				)
 			)
 		)
-		(property "Value" "L"
-			(at 269.24 300.0345 90)
+		(property "Value" "100uH"
+			(at 269.24 299.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23249,6 +23761,17 @@
 		)
 		(property "Description" "Inductor"
 			(at 269.24 302.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" "PSDB1004NT101"
+			(at 269.24 302.26 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23509,7 +24032,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 104.14 128.27 0)
+		(at 99.06 128.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23520,7 +24043,7 @@
 		(fields_autoplaced yes)
 		(uuid "69eb6625-e992-4b36-b741-88ebccae22f1")
 		(property "Reference" "#PWR075"
-			(at 104.14 134.62 0)
+			(at 99.06 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23531,7 +24054,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 104.14 132.4031 0)
+			(at 99.06 132.4031 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23541,7 +24064,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 128.27 0)
+			(at 99.06 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23552,7 +24075,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 128.27 0)
+			(at 99.06 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23563,7 +24086,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 128.27 0)
+			(at 99.06 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23642,6 +24165,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 111.76 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" ""
 			(at 111.76 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -23903,7 +24437,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 187.96 351.79 0)
+		(at 190.5 353.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23913,7 +24447,7 @@
 		(dnp no)
 		(uuid "6ee44cc6-cada-448e-9b85-8b9cf365c39a")
 		(property "Reference" "C6"
-			(at 190.881 349.6888 0)
+			(at 193.421 350.9588 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23923,8 +24457,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
-			(at 190.881 352.1131 0)
+		(property "Value" "150uF"
+			(at 200.66 353.314 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23935,7 +24469,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:CP_Elec_5x4.5"
-			(at 188.9252 355.6 0)
+			(at 191.4652 356.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23946,7 +24480,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 351.79 0)
+			(at 190.5 353.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23957,7 +24491,18 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 187.96 351.79 0)
+			(at 190.5 353.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" "EEEFT1A151AR"
+			(at 190.5 353.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23984,7 +24529,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 287.02 312.42 0)
+		(at 299.72 312.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23995,7 +24540,7 @@
 		(fields_autoplaced yes)
 		(uuid "6f0306f0-3634-4a4c-839f-49d592c5fac7")
 		(property "Reference" "#PWR043"
-			(at 287.02 318.77 0)
+			(at 299.72 318.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24006,7 +24551,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 287.02 317.5 0)
+			(at 299.72 317.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24016,7 +24561,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 287.02 312.42 0)
+			(at 299.72 312.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24027,7 +24572,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 287.02 312.42 0)
+			(at 299.72 312.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24038,7 +24583,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 287.02 312.42 0)
+			(at 299.72 312.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24073,7 +24618,7 @@
 		(fields_autoplaced yes)
 		(uuid "6fd9267a-b4c1-444b-b0bd-81954b4f928d")
 		(property "Reference" "R11"
-			(at 494.538 175.3178 0)
+			(at 495.3 175.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24083,8 +24628,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 494.538 177.7421 0)
+		(property "Value" "10k"
+			(at 495.3 177.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24127,6 +24672,17 @@
 				)
 			)
 		)
+		(property "TME_SYMBOL" ""
+			(at 492.76 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c2cb2cd6-df13-48fc-9ce6-3f74d3457219")
 		)
@@ -24155,7 +24711,7 @@
 		(fields_autoplaced yes)
 		(uuid "70780082-6131-47f0-af10-783c9283156a")
 		(property "Reference" "C35"
-			(at 180.721 350.5778 0)
+			(at 181.61 350.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24165,8 +24721,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 180.721 353.0021 0)
+		(property "Value" "100nF"
+			(at 181.61 353.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24199,6 +24755,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 177.8 351.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" ""
 			(at 177.8 351.79 0)
 			(hide yes)
 			(show_name no)
@@ -24471,7 +25038,7 @@
 		(fields_autoplaced yes)
 		(uuid "78c98391-fc91-46cf-968e-4d5811fa35fa")
 		(property "Reference" "D4"
-			(at 263.652 239.7703 90)
+			(at 264.16 239.7124 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24481,8 +25048,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Schottky"
-			(at 263.652 242.1946 90)
+		(property "Value" "SS24"
+			(at 264.16 242.2524 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24516,6 +25083,17 @@
 		)
 		(property "Description" "Schottky diode"
 			(at 261.62 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" ""
+			(at 261.62 241.3 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24753,6 +25331,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 104.14 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" ""
 			(at 104.14 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -25001,6 +25590,17 @@
 				)
 			)
 		)
+		(property "TME_SYMBOL" ""
+			(at 212.09 259.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8a0a1b35-588e-4398-9dc3-b8a7b67508ef")
 		)
@@ -25018,7 +25618,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 433.07 242.57 0)
+		(at 435.61 242.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25029,7 +25629,7 @@
 		(fields_autoplaced yes)
 		(uuid "7daa8210-f8d9-4191-8ffd-82f7b4d2539a")
 		(property "Reference" "#PWR030"
-			(at 433.07 248.92 0)
+			(at 435.61 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25040,7 +25640,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 433.07 246.7031 0)
+			(at 435.61 246.7031 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25050,7 +25650,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 433.07 242.57 0)
+			(at 435.61 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25061,7 +25661,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 433.07 242.57 0)
+			(at 435.61 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25072,7 +25672,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 433.07 242.57 0)
+			(at 435.61 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25117,7 +25717,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 223.901 209.4921 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25151,6 +25751,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 220.98 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" ""
 			(at 220.98 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -25243,6 +25854,17 @@
 				)
 			)
 		)
+		(property "TME_SYMBOL" ""
+			(at 341.63 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "383d13a3-724d-4e55-8f7a-32b130aa4332")
 		)
@@ -25313,6 +25935,17 @@
 			)
 		)
 		(property "Description" "800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-252"
+			(at 414.02 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" ""
 			(at 414.02 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -25520,7 +26153,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 461.01 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25554,6 +26187,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 457.2 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" ""
 			(at 457.2 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -25649,6 +26293,17 @@
 				)
 			)
 		)
+		(property "TME_SYMBOL" ""
+			(at 259.08 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "0d9c0b79-ff9c-4655-8083-7a15ad1aee30")
 		)
@@ -25682,7 +26337,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -25734,6 +26389,17 @@
 		)
 		(property "Description" ""
 			(at 508 89.408 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" ""
+			(at 497.84 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25852,7 +26518,7 @@
 		(fields_autoplaced yes)
 		(uuid "82cad0c6-485d-4757-a927-2b79cae9408f")
 		(property "Reference" "R17"
-			(at 227.838 321.3678 0)
+			(at 228.6 321.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25862,8 +26528,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 227.838 323.7921 0)
+		(property "Value" "100k"
+			(at 228.6 323.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25896,6 +26562,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 226.06 322.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" ""
 			(at 226.06 322.58 0)
 			(hide yes)
 			(show_name no)
@@ -26012,7 +26689,7 @@
 		(fields_autoplaced yes)
 		(uuid "831a0bae-6568-471c-9df8-2fddacb0b009")
 		(property "Reference" "C21"
-			(at 208.661 296.3488 0)
+			(at 209.55 296.2909 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26022,8 +26699,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
-			(at 208.661 298.7731 0)
+		(property "Value" "150uF"
+			(at 209.55 298.8309 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26056,6 +26733,17 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 205.74 298.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" "EEEFT1A151AR"
 			(at 205.74 298.45 0)
 			(hide yes)
 			(show_name no)
@@ -26874,7 +27562,7 @@
 		(fields_autoplaced yes)
 		(uuid "8f48d400-af07-4bae-84b7-3243e62ba978")
 		(property "Reference" "R30"
-			(at 225.298 229.9278 0)
+			(at 226.06 229.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26884,8 +27572,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 225.298 232.3521 0)
+		(property "Value" "100k"
+			(at 226.06 232.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26918,6 +27606,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 223.52 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" ""
 			(at 223.52 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -27087,6 +27786,17 @@
 				)
 			)
 		)
+		(property "TME_SYMBOL" ""
+			(at 116.84 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "ca93989c-6c2f-4a6c-876e-176808ae419b")
 		)
@@ -27121,7 +27831,7 @@
 		(fields_autoplaced yes)
 		(uuid "91232129-80f7-4f2a-ac79-54c2378744d2")
 		(property "Reference" "C20"
-			(at 198.501 297.2378 0)
+			(at 199.39 297.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27131,8 +27841,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 198.501 299.6621 0)
+		(property "Value" "100nF"
+			(at 199.39 299.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27175,6 +27885,17 @@
 				)
 			)
 		)
+		(property "TME_SYMBOL" ""
+			(at 195.58 298.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d4b4b07a-6ec9-492b-b3ec-22f8af342555")
 		)
@@ -27199,7 +27920,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "93f52eca-64c6-4114-a6d1-e3bb112d7490")
 		(property "Reference" "C15"
@@ -27257,6 +27978,17 @@
 				)
 			)
 		)
+		(property "TME_SYMBOL" ""
+			(at 134.62 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0147c09e-eb45-400c-82b7-ea0eef9abc91")
 		)
@@ -27278,7 +28010,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -27330,6 +28062,17 @@
 		)
 		(property "Description" "HV5812WG"
 			(at 360.426 114.046 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" ""
+			(at 351.79 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27577,6 +28320,17 @@
 				)
 			)
 		)
+		(property "TME_SYMBOL" ""
+			(at 76.2 309.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "61c30ffc-35dd-4e3c-9245-077a00269cec")
 		)
@@ -27683,7 +28437,7 @@
 		(fields_autoplaced yes)
 		(uuid "96239dba-6c46-4217-8d8c-676893700ca5")
 		(property "Reference" "F4"
-			(at 393.7 230.0435 90)
+			(at 393.7 228.6 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27692,8 +28446,8 @@
 				)
 			)
 		)
-		(property "Value" "Fuse"
-			(at 393.7 232.4678 90)
+		(property "Value" "500mA"
+			(at 393.7 231.14 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27726,6 +28480,17 @@
 		)
 		(property "Description" "Fuse"
 			(at 393.7 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" "0ZCK0050FF2E"
+			(at 393.7 234.95 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27894,6 +28659,17 @@
 				)
 			)
 		)
+		(property "TME_SYMBOL" ""
+			(at 474.98 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e0389b74-8a35-426a-b282-cf1b2a048b51")
 		)
@@ -28019,7 +28795,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 332.74 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28053,6 +28829,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 328.93 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" ""
 			(at 328.93 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -28101,7 +28888,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200-600p"
+		(property "Value" "200-600pF"
 			(at 86.36 241.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28145,6 +28932,17 @@
 				)
 			)
 		)
+		(property "TME_SYMBOL" ""
+			(at 82.55 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "088e926c-bc96-4d10-8e9d-cc2e44ab8d91")
 		)
@@ -28173,7 +28971,7 @@
 		(fields_autoplaced yes)
 		(uuid "9a21e23f-b0ef-4e39-a9cc-7bcb52ffedaa")
 		(property "Reference" "R12"
-			(at 464.058 175.3178 0)
+			(at 464.82 175.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28183,8 +28981,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 464.058 177.7421 0)
+		(property "Value" "10k"
+			(at 464.82 177.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28217,6 +29015,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 462.28 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" ""
 			(at 462.28 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -28309,6 +29118,17 @@
 				)
 			)
 		)
+		(property "TME_SYMBOL" ""
+			(at 119.38 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5a488e6c-b0a0-4d48-9a00-f876eb6ab140")
 		)
@@ -28347,7 +29167,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 128.27 276.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28381,6 +29201,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 124.46 275.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" ""
 			(at 124.46 275.59 0)
 			(hide yes)
 			(show_name no)
@@ -28627,6 +29458,17 @@
 				)
 			)
 		)
+		(property "TME_SYMBOL" ""
+			(at 303.53 358.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d06dcd07-6fe3-48db-abe7-b42d31eabb2b")
 		)
@@ -28743,7 +29585,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 214.63 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28777,6 +29619,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 210.82 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" ""
 			(at 210.82 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -28869,6 +29722,17 @@
 				)
 			)
 		)
+		(property "TME_SYMBOL" ""
+			(at 69.85 377.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "83d5ac35-159f-4488-834e-603c4fa14636")
 		)
@@ -28904,7 +29768,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "40uF"
 			(at 471.17 159.1309 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28938,6 +29802,17 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 467.36 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" "T491D476K010AT"
 			(at 467.36 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -29108,6 +29983,17 @@
 				)
 			)
 		)
+		(property "TME_SYMBOL" ""
+			(at 243.84 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "65d4ddd1-9835-4f9a-a6c5-b2fba183513b")
 		)
@@ -29136,7 +30022,7 @@
 		(fields_autoplaced yes)
 		(uuid "a2c0b91f-86ae-449c-a91d-760a5454b61a")
 		(property "Reference" "R5"
-			(at 297.688 340.4178 0)
+			(at 298.45 340.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29146,8 +30032,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 297.688 342.8421 0)
+		(property "Value" "~70k"
+			(at 298.45 342.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29180,6 +30066,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 295.91 341.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" ""
 			(at 295.91 341.63 0)
 			(hide yes)
 			(show_name no)
@@ -29285,7 +30182,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 433.07 238.76 0)
+		(at 435.61 238.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29296,7 +30193,7 @@
 		(fields_autoplaced yes)
 		(uuid "a64d7b7b-6526-45bb-9cdf-0c00f93bf88b")
 		(property "Reference" "C13"
-			(at 435.991 236.6588 0)
+			(at 439.42 236.6009 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29306,8 +30203,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
-			(at 435.991 239.0831 0)
+		(property "Value" "150uF"
+			(at 439.42 239.1409 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29318,7 +30215,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:CP_Elec_5x4.5"
-			(at 434.0352 242.57 0)
+			(at 436.5752 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29329,7 +30226,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 433.07 238.76 0)
+			(at 435.61 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29340,7 +30237,18 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 433.07 238.76 0)
+			(at 435.61 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" "EEEFT1A151AR"
+			(at 435.61 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29534,7 +30442,7 @@
 		(fields_autoplaced yes)
 		(uuid "a9b3ca3c-4051-4bc6-a7d1-9ca4367da593")
 		(property "Reference" "R24"
-			(at 213.868 247.7078 0)
+			(at 214.63 247.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29544,8 +30452,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 213.868 250.1321 0)
+		(property "Value" "1k"
+			(at 214.63 250.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29588,6 +30496,17 @@
 				)
 			)
 		)
+		(property "TME_SYMBOL" ""
+			(at 212.09 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ae837158-23c1-4984-bd29-c9b35a866693")
 		)
@@ -29605,7 +30524,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 104.14 124.46 0)
+		(at 99.06 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29616,7 +30535,7 @@
 		(fields_autoplaced yes)
 		(uuid "aba737e7-4e9b-432f-a965-4265901db4e2")
 		(property "Reference" "C18"
-			(at 107.061 123.2478 0)
+			(at 102.87 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29626,8 +30545,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 107.061 125.6721 0)
+		(property "Value" "100nF"
+			(at 102.87 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29638,7 +30557,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 105.1052 128.27 0)
+			(at 100.0252 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29649,7 +30568,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 124.46 0)
+			(at 99.06 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29660,7 +30579,18 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 104.14 124.46 0)
+			(at 99.06 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" ""
+			(at 99.06 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29752,6 +30682,17 @@
 				)
 			)
 		)
+		(property "TME_SYMBOL" ""
+			(at 76.2 295.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "14868725-4885-4a42-ba1b-fa01a5f9330a")
 		)
@@ -29824,6 +30765,17 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/drain/source"
+			(at 497.84 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" ""
 			(at 497.84 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -29988,6 +30940,17 @@
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
 			(at 93.98 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" ""
+			(at 93.98 87.63 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30235,6 +31198,17 @@
 				)
 			)
 		)
+		(property "TME_SYMBOL" "CS3216X5R106M500NR"
+			(at 231.14 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4ef0b53d-f985-4b12-9fa0-d4d3a1daa17c")
 		)
@@ -30305,6 +31279,17 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
+			(at 39.37 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" ""
 			(at 39.37 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -30826,6 +31811,17 @@
 				)
 			)
 		)
+		(property "TME_SYMBOL" ""
+			(at 483.87 323.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f48f9fac-9f83-4360-a7c0-8a0ecc34ab5e")
 		)
@@ -30921,7 +31917,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 313.69 313.69 90)
+		(at 331.47 313.69 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30932,7 +31928,7 @@
 		(fields_autoplaced yes)
 		(uuid "b5bf791c-7129-44ac-98ff-f4ec893380a3")
 		(property "Reference" "R9"
-			(at 313.69 308.5295 90)
+			(at 331.47 308.5295 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30942,7 +31938,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 313.69 310.9538 90)
+			(at 331.47 310.9538 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30952,7 +31948,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 313.69 315.468 90)
+			(at 331.47 315.468 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30963,7 +31959,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 313.69 313.69 0)
+			(at 331.47 313.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30974,7 +31970,18 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 313.69 313.69 0)
+			(at 331.47 313.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" ""
+			(at 331.47 313.69 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31144,6 +32151,17 @@
 				)
 			)
 		)
+		(property "TME_SYMBOL" ""
+			(at 426.72 323.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6ce66af8-dd98-4dba-a999-f857801573fe")
 		)
@@ -31172,7 +32190,7 @@
 		(fields_autoplaced yes)
 		(uuid "b6edb8e2-0608-4d55-a132-fb49548a9200")
 		(property "Reference" "C7"
-			(at 333.121 349.6888 0)
+			(at 334.01 349.6309 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31182,8 +32200,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
-			(at 333.121 352.1131 0)
+		(property "Value" "10uF"
+			(at 334.01 352.1709 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31216,6 +32234,17 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 330.2 351.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" "VS1H100MC054000CE0"
 			(at 330.2 351.79 0)
 			(hide yes)
 			(show_name no)
@@ -31298,6 +32327,17 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 64.77 372.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" ""
 			(at 64.77 372.11 0)
 			(hide yes)
 			(show_name no)
@@ -31407,7 +32447,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b9cce427-ded0-498e-ad2a-2399e5eca285")
 		(property "Reference" "C16"
@@ -31465,6 +32505,17 @@
 				)
 			)
 		)
+		(property "TME_SYMBOL" ""
+			(at 127 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e0160379-1d97-4ebc-ac92-b8ccef15a424")
 		)
@@ -31493,7 +32544,7 @@
 		(fields_autoplaced yes)
 		(uuid "bb414bce-43be-4471-8044-835d31638ffb")
 		(property "Reference" "RV3"
-			(at 294.132 350.5778 0)
+			(at 293.37 350.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31503,8 +32554,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Potentiometer"
-			(at 294.132 353.0021 0)
+		(property "Value" "100k"
+			(at 293.37 353.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31537,6 +32588,17 @@
 			)
 		)
 		(property "Description" "Potentiometer"
+			(at 295.91 351.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" ""
 			(at 295.91 351.79 0)
 			(hide yes)
 			(show_name no)
@@ -31622,6 +32684,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 111.76 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" ""
 			(at 111.76 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -31792,6 +32865,17 @@
 				)
 			)
 		)
+		(property "TME_SYMBOL" ""
+			(at 93.98 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "11fc5766-5bb6-4d9d-bd06-60d5501c49fa")
 		)
@@ -31830,7 +32914,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 340.36 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31874,6 +32958,17 @@
 				)
 			)
 		)
+		(property "TME_SYMBOL" ""
+			(at 336.55 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6401c790-0ef3-4b78-9936-3ea14078afd0")
 		)
@@ -31902,7 +32997,7 @@
 		(fields_autoplaced yes)
 		(uuid "c233f5f1-59a5-406b-8867-db9688b6b57d")
 		(property "Reference" "C11"
-			(at 405.511 237.5478 0)
+			(at 406.4 237.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31912,8 +33007,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 405.511 239.9721 0)
+		(property "Value" "100nF"
+			(at 406.4 240.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31946,6 +33041,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 402.59 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" ""
 			(at 402.59 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -32026,6 +33132,17 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 441.96 287.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" ""
 			(at 441.96 287.02 0)
 			(hide yes)
 			(show_name no)
@@ -32120,6 +33237,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 495.3 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" ""
 			(at 495.3 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -32290,6 +33418,17 @@
 				)
 			)
 		)
+		(property "TME_SYMBOL" ""
+			(at 119.38 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f0266a16-6fed-4ef2-b245-a2b346b3d223")
 		)
@@ -32448,6 +33587,17 @@
 				)
 			)
 		)
+		(property "TME_SYMBOL" ""
+			(at 116.84 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7d63e204-0be0-4d7f-a855-e8bfc491fa14")
 		)
@@ -32476,7 +33626,7 @@
 		(fields_autoplaced yes)
 		(uuid "cbef0aac-01d5-4d74-ad9e-96554f65fb37")
 		(property "Reference" "R6"
-			(at 297.688 360.7378 0)
+			(at 298.45 360.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32486,8 +33636,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 297.688 363.1621 0)
+		(property "Value" "10k"
+			(at 298.45 363.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32530,6 +33680,17 @@
 				)
 			)
 		)
+		(property "TME_SYMBOL" ""
+			(at 295.91 361.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b274fc4f-d64c-47fd-a8ec-6a86a6183004")
 		)
@@ -32558,7 +33719,7 @@
 		(fields_autoplaced yes)
 		(uuid "cbf5ddca-59f2-4d7c-b7aa-63dad53043e1")
 		(property "Reference" "C23"
-			(at 198.501 229.9278 0)
+			(at 199.39 229.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32568,8 +33729,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 198.501 232.3521 0)
+		(property "Value" "100nF"
+			(at 199.39 232.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32602,6 +33763,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 195.58 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" ""
 			(at 195.58 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -32850,6 +34022,17 @@
 				)
 			)
 		)
+		(property "TME_SYMBOL" ""
+			(at 208.28 342.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "09d2aedd-17fa-49b3-acf7-3b1cd7d96bb0")
 		)
@@ -32878,7 +34061,7 @@
 		(fields_autoplaced yes)
 		(uuid "d04095d2-7625-4676-bc9f-9af2b3ae12f0")
 		(property "Reference" "U7"
-			(at 245.11 223.1855 0)
+			(at 245.11 222.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32887,8 +34070,8 @@
 				)
 			)
 		)
-		(property "Value" "LM2576HVS-ADJ"
-			(at 245.11 225.6098 0)
+		(property "Value" "LM2576HVS-0.5"
+			(at 245.11 224.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32922,6 +34105,17 @@
 			)
 		)
 		(property "Description" "Adjustable Output Voltage, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator, High Voltage Input, TO-263"
+			(at 245.11 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" ""
 			(at 245.11 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -32979,7 +34173,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 340.36 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33013,6 +34207,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 336.55 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" ""
 			(at 336.55 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -33105,6 +34310,17 @@
 				)
 			)
 		)
+		(property "TME_SYMBOL" ""
+			(at 251.46 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "62eb6144-01bf-4dee-9342-01d73bfc9541")
 		)
@@ -33176,6 +34392,17 @@
 			)
 		)
 		(property "Description" "Positive 500mA 20V Linear Regulator, Fixed Output 5V, TO-252 (D-PAK)"
+			(at 245.11 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" ""
 			(at 245.11 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -33461,7 +34688,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 297.18 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33495,6 +34722,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 293.37 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" ""
 			(at 293.37 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -33611,7 +34849,7 @@
 		(fields_autoplaced yes)
 		(uuid "dc1d3c00-48ad-488d-94d8-ea6e88a337af")
 		(property "Reference" "D1"
-			(at 283.21 332.4055 0)
+			(at 283.21 331.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33620,8 +34858,8 @@
 				)
 			)
 		)
-		(property "Value" "D"
-			(at 283.21 334.8298 0)
+		(property "Value" "B3100BE-13"
+			(at 283.21 334.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33675,6 +34913,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 283.21 337.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" "B3100BE-13"
 			(at 283.21 337.82 0)
 			(hide yes)
 			(show_name no)
@@ -33835,6 +35084,17 @@
 			)
 		)
 		(property "Description" "I2C Serial EEPROM, 1Kb (128x8) with Unique Serial Number, SOT-23-5"
+			(at 106.68 353.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" ""
 			(at 106.68 353.06 0)
 			(hide yes)
 			(show_name no)
@@ -34112,7 +35372,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e4113588-c6d4-46ba-82ca-072fd10014b1")
 		(property "Reference" "C8"
@@ -34126,7 +35386,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 325.12 353.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34160,6 +35420,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 321.31 351.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" ""
 			(at 321.31 351.79 0)
 			(hide yes)
 			(show_name no)
@@ -34486,6 +35757,17 @@
 				)
 			)
 		)
+		(property "TME_SYMBOL" ""
+			(at 119.38 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "9"
 			(uuid "a0fe59bc-f0d5-4c24-a176-d0a5c3d82568")
 		)
@@ -34538,7 +35820,7 @@
 		(fields_autoplaced yes)
 		(uuid "ec86c4bb-0e01-4ff4-a30a-077f56e8778d")
 		(property "Reference" "C12"
-			(at 428.371 237.5478 0)
+			(at 429.26 237.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34548,8 +35830,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 428.371 239.9721 0)
+		(property "Value" "100nF"
+			(at 429.26 240.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34592,6 +35874,17 @@
 				)
 			)
 		)
+		(property "TME_SYMBOL" ""
+			(at 425.45 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f8c7afd8-2311-4d00-a172-1ae816c42fb0")
 		)
@@ -34620,7 +35913,7 @@
 		(fields_autoplaced yes)
 		(uuid "ed9c6c45-475f-4f63-bc7e-129c61067a0e")
 		(property "Reference" "D2"
-			(at 277.622 307.3978 90)
+			(at 278.13 307.3399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34630,8 +35923,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Zener"
-			(at 277.622 309.8221 90)
+		(property "Value" "Zener 3.5V"
+			(at 278.13 309.8799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34665,6 +35958,17 @@
 		)
 		(property "Description" "Zener diode"
 			(at 275.59 308.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" ""
+			(at 275.59 308.61 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34746,6 +36050,17 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/drain/source"
+			(at 264.16 350.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" ""
 			(at 264.16 350.52 0)
 			(hide yes)
 			(show_name no)
@@ -34919,6 +36234,17 @@
 				)
 			)
 		)
+		(property "TME_SYMBOL" "CS3216X5R106M500NR"
+			(at 257.81 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "de608f21-f778-4703-bc6a-b27277b5f760")
 		)
@@ -35069,6 +36395,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 497.84 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" ""
 			(at 497.84 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -35273,7 +36610,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 119.38 336.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35307,6 +36644,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 115.57 335.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" ""
 			(at 115.57 335.28 0)
 			(hide yes)
 			(show_name no)
@@ -35802,7 +37150,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 281.94 308.61 0)
+		(at 287.02 308.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -35810,10 +37158,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fcf6d411-8913-4fbc-88b0-ff80e9b532e4")
 		(property "Reference" "C22"
-			(at 284.861 306.5088 0)
+			(at 289.941 306.5088 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35823,8 +37170,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
-			(at 284.861 308.9331 0)
+		(property "Value" "150uF"
+			(at 289.814 308.864 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35835,7 +37182,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:CP_Elec_5x4.5"
-			(at 282.9052 312.42 0)
+			(at 287.9852 312.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35846,7 +37193,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 281.94 308.61 0)
+			(at 287.02 308.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35857,7 +37204,18 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 281.94 308.61 0)
+			(at 287.02 308.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME_SYMBOL" "EEEFT1A151AR"
+			(at 287.02 308.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
