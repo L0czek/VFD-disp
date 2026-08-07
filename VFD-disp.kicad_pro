@@ -660,7 +660,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -678,7 +678,7 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -702,7 +702,19 @@
           "group_by": false,
           "label": "Opis",
           "name": "Description",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "EXCLUDE_FROM_BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Comment",
+          "name": "Comment",
+          "show": true
         }
       ],
       "filter_string": "",

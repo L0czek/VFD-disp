@@ -9082,7 +9082,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "VPP <= 27V"
+	(text "req: VPP <= 27V\n150k/10k -> 24V\n130k/10k -> 21V"
 		(exclude_from_sim no)
 		(at 304.292 330.454 0)
 		(effects
@@ -9111,6 +9111,26 @@
 			)
 		)
 		(uuid "948e9588-3903-4e85-9488-05689ea4ef04")
+	)
+	(text "BAD ZENER FOOTPRINT"
+		(exclude_from_sim no)
+		(at 275.082 294.132 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e37bd84f-92da-4f40-8705-ae437fbffd02")
+	)
+	(text "RDY can float if unused"
+		(exclude_from_sim no)
+		(at 98.806 289.306 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fbb9a653-9abb-44a5-b8dd-633a94413580")
 	)
 	(junction
 		(at 275.59 302.26)
@@ -16164,7 +16184,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -16226,6 +16246,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 269.24 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 269.24 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -16317,6 +16348,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 488.95 172.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 488.95 172.72 90)
 			(hide yes)
 			(show_name no)
@@ -16731,6 +16773,17 @@
 				)
 			)
 		)
+		(property "Comment" ""
+			(at 220.98 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "caeac56a-2254-4854-b90e-d61cf2791bf7")
 		)
@@ -16833,7 +16886,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
@@ -16905,6 +16958,17 @@
 				)
 			)
 		)
+		(property "Comment" ""
+			(at 450.85 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "512ee0a5-0b36-4d36-b160-9bb101df73b9")
 		)
@@ -16926,7 +16990,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
@@ -16988,6 +17052,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 298.45 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 298.45 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -17175,7 +17250,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
@@ -17247,6 +17322,17 @@
 				)
 			)
 		)
+		(property "Comment" ""
+			(at 100.33 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bc719623-24b8-456c-bebf-a245df87858a")
 		)
@@ -17268,7 +17354,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
@@ -17328,6 +17414,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 130.81 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 130.81 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -17749,10 +17846,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1a7ae4cc-8532-457c-b896-b8949a56d1cc")
 		(property "Reference" "R13"
@@ -17811,6 +17908,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 83.82 295.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 83.82 295.91 0)
 			(hide yes)
 			(show_name no)
@@ -17902,6 +18010,17 @@
 			)
 		)
 		(property "TME_SYMBOL" "SR075-06"
+			(at 331.47 302.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 331.47 302.26 90)
 			(hide yes)
 			(show_name no)
@@ -18005,6 +18124,17 @@
 				)
 			)
 		)
+		(property "Comment" ""
+			(at 212.09 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "60408f4d-8208-4cb0-b7a0-06430e960824")
 		)
@@ -18088,6 +18218,17 @@
 			)
 		)
 		(property "TME_SYMBOL" "EEEFT1A151AR"
+			(at 281.94 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 281.94 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -18275,7 +18416,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -18337,6 +18478,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 328.93 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 328.93 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -18446,7 +18598,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -18508,6 +18660,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 127 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 127 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -18601,6 +18764,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 72.39 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 72.39 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -18788,7 +18962,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
@@ -18849,6 +19023,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 100.33 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 100.33 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -19426,7 +19611,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -19486,6 +19671,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 375.92 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "already have"
 			(at 375.92 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -19753,6 +19949,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 266.7 361.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 266.7 361.95 0)
 			(hide yes)
 			(show_name no)
@@ -20246,6 +20453,17 @@
 				)
 			)
 		)
+		(property "Comment" ""
+			(at 351.79 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "19"
 			(uuid "c2455af8-c872-4229-946f-f17d137c22ff")
 		)
@@ -20571,6 +20789,17 @@
 				)
 			)
 		)
+		(property "Comment" ""
+			(at 480.06 287.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "3c2ff0ea-71d4-43b2-925a-b354b2189939")
 		)
@@ -20604,7 +20833,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -20666,6 +20895,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 245.11 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "already have"
 			(at 245.11 299.72 0)
 			(hide yes)
 			(show_name no)
@@ -20784,7 +21024,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
@@ -20845,6 +21085,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 299.72 308.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 299.72 308.61 0)
 			(hide yes)
 			(show_name no)
@@ -21026,6 +21277,17 @@
 				)
 			)
 		)
+		(property "Comment" ""
+			(at 393.7 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3d58114f-105e-47b3-bc54-fc2784a3d709")
 		)
@@ -21125,7 +21387,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -21185,6 +21447,17 @@
 			)
 		)
 		(property "TME_SYMBOL" "PSDB1004NT101"
+			(at 269.24 234.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "already have"
 			(at 269.24 234.95 90)
 			(hide yes)
 			(show_name no)
@@ -21276,6 +21549,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 500.38 332.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 500.38 332.74 0)
 			(hide yes)
 			(show_name no)
@@ -21384,6 +21668,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 285.75 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 285.75 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -21599,6 +21894,17 @@
 				)
 			)
 		)
+		(property "Comment" ""
+			(at 441.96 332.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "ba803dcf-f9f7-4c5a-9a71-024a6df3d6c4")
 		)
@@ -21702,6 +22008,17 @@
 				)
 			)
 		)
+		(property "Comment" ""
+			(at 60.96 223.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0ebca151-b7c1-4916-a36d-94ee6159a8c6")
 		)
@@ -21785,6 +22102,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 323.85 320.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 323.85 320.04 0)
 			(hide yes)
 			(show_name no)
@@ -21966,6 +22294,17 @@
 				)
 			)
 		)
+		(property "Comment" ""
+			(at 205.74 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a5145afa-fc8e-4e8d-bd0b-8cc4977ce25b")
 		)
@@ -22137,6 +22476,17 @@
 				)
 			)
 		)
+		(property "Comment" ""
+			(at 261.62 308.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8f3637df-a068-4db0-b43a-a97e68968d65")
 		)
@@ -22158,7 +22508,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -22218,6 +22568,17 @@
 			)
 		)
 		(property "TME_SYMBOL" "PSDB1004NT101"
+			(at 238.76 337.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "already have"
 			(at 238.76 337.82 90)
 			(hide yes)
 			(show_name no)
@@ -22405,7 +22766,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -22467,6 +22828,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 275.59 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 275.59 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -22648,6 +23020,17 @@
 				)
 			)
 		)
+		(property "Comment" ""
+			(at 341.63 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "42e37e60-ae56-4656-9b90-66ecead2c60a")
 		)
@@ -22819,6 +23202,17 @@
 				)
 			)
 		)
+		(property "Comment" ""
+			(at 220.98 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "878c8c27-78f4-4892-b62c-fe2d007fd6d6")
 		)
@@ -22912,6 +23306,17 @@
 				)
 			)
 		)
+		(property "Comment" ""
+			(at 80.01 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b8dc37ba-2997-4f7a-ac4f-90eb23652b77")
 		)
@@ -22995,6 +23400,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 196.85 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 196.85 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -23107,7 +23523,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
@@ -23179,6 +23595,17 @@
 				)
 			)
 		)
+		(property "Comment" ""
+			(at 134.62 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "345a0640-d35f-4e48-82f4-977cfb97d0b4")
 		)
@@ -23200,7 +23627,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -23262,6 +23689,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 212.09 361.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 212.09 361.95 0)
 			(hide yes)
 			(show_name no)
@@ -23365,6 +23803,17 @@
 				)
 			)
 		)
+		(property "Comment" ""
+			(at 320.04 308.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "35657892-2501-454d-9ba7-4dafc5fe6a45")
 		)
@@ -23389,7 +23838,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -23451,6 +23900,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 227.33 355.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "already have"
 			(at 227.33 355.6 0)
 			(hide yes)
 			(show_name no)
@@ -23579,7 +24039,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -23651,6 +24111,17 @@
 				)
 			)
 		)
+		(property "Comment" "already have"
+			(at 119.38 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "13"
 			(uuid "a8f71f1d-697d-478e-9a97-7066eb3e18ce")
 		)
@@ -23711,7 +24182,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -23771,6 +24242,17 @@
 			)
 		)
 		(property "TME_SYMBOL" "PSDB1004NT101"
+			(at 269.24 302.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "already have"
 			(at 269.24 302.26 90)
 			(hide yes)
 			(show_name no)
@@ -24186,6 +24668,17 @@
 				)
 			)
 		)
+		(property "Comment" ""
+			(at 111.76 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ee66af27-ae60-47e2-b7fa-8818f4fcd3f1")
 		)
@@ -24512,6 +25005,17 @@
 				)
 			)
 		)
+		(property "Comment" ""
+			(at 190.5 353.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "07657b2c-0e06-44a7-848d-e81d035043c2")
 		)
@@ -24683,6 +25187,17 @@
 				)
 			)
 		)
+		(property "Comment" ""
+			(at 492.76 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c2cb2cd6-df13-48fc-9ce6-3f74d3457219")
 		)
@@ -24704,7 +25219,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -24766,6 +25281,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 177.8 351.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 177.8 351.79 0)
 			(hide yes)
 			(show_name no)
@@ -25103,6 +25629,17 @@
 				)
 			)
 		)
+		(property "Comment" ""
+			(at 261.62 241.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8ede2823-db55-499d-b70f-8476f6545cb1")
 		)
@@ -25342,6 +25879,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 104.14 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 104.14 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -25601,6 +26149,17 @@
 				)
 			)
 		)
+		(property "Comment" ""
+			(at 212.09 259.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8a0a1b35-588e-4398-9dc3-b8a7b67508ef")
 		)
@@ -25700,7 +26259,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -25762,6 +26321,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 220.98 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 220.98 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -25865,6 +26435,17 @@
 				)
 			)
 		)
+		(property "Comment" ""
+			(at 341.63 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "383d13a3-724d-4e55-8f7a-32b130aa4332")
 		)
@@ -25946,6 +26527,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 414.02 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 414.02 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -26136,7 +26728,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -26208,6 +26800,17 @@
 				)
 			)
 		)
+		(property "Comment" ""
+			(at 457.2 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5ec0c57a-ff4a-49b4-b677-6a9d169eaf67")
 		)
@@ -26230,7 +26833,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -26294,6 +26897,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 259.08 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "already have"
 			(at 259.08 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -26399,6 +27013,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 497.84 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 497.84 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -26583,6 +27208,17 @@
 				)
 			)
 		)
+		(property "Comment" ""
+			(at 226.06 322.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bfa7fd5f-bea8-441c-8f10-7427adfd2eb7")
 		)
@@ -26744,6 +27380,17 @@
 			)
 		)
 		(property "TME_SYMBOL" "EEEFT1A151AR"
+			(at 205.74 298.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 205.74 298.45 0)
 			(hide yes)
 			(show_name no)
@@ -27627,6 +28274,17 @@
 				)
 			)
 		)
+		(property "Comment" ""
+			(at 223.52 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "009c5755-723d-4fcb-82a3-4ded1da61159")
 		)
@@ -27797,6 +28455,17 @@
 				)
 			)
 		)
+		(property "Comment" ""
+			(at 116.84 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "ca93989c-6c2f-4a6c-876e-176808ae419b")
 		)
@@ -27824,7 +28493,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -27896,6 +28565,17 @@
 				)
 			)
 		)
+		(property "Comment" ""
+			(at 195.58 298.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d4b4b07a-6ec9-492b-b3ec-22f8af342555")
 		)
@@ -27917,7 +28597,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
@@ -27979,6 +28659,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 134.62 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 134.62 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -28072,6 +28763,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 351.79 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 351.79 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -28276,7 +28978,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 78.74 311.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28321,6 +29023,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 76.2 309.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 76.2 309.88 0)
 			(hide yes)
 			(show_name no)
@@ -28500,6 +29213,17 @@
 				)
 			)
 		)
+		(property "Comment" ""
+			(at 393.7 234.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6c2ceba3-e90e-478c-95e6-84dede47a900")
 		)
@@ -28599,7 +29323,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -28660,6 +29384,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 474.98 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "already have"
 			(at 474.98 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -28778,7 +29513,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -28840,6 +29575,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 328.93 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 328.93 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -28943,6 +29689,17 @@
 				)
 			)
 		)
+		(property "Comment" ""
+			(at 82.55 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "088e926c-bc96-4d10-8e9d-cc2e44ab8d91")
 		)
@@ -29026,6 +29783,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 462.28 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 462.28 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -29129,6 +29897,17 @@
 				)
 			)
 		)
+		(property "Comment" ""
+			(at 119.38 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5a488e6c-b0a0-4d48-9a00-f876eb6ab140")
 		)
@@ -29150,7 +29929,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -29212,6 +29991,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 124.46 275.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 124.46 275.59 0)
 			(hide yes)
 			(show_name no)
@@ -29399,10 +30189,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9ea1d829-60f9-422e-914a-829b2554e17f")
 		(property "Reference" "R8"
@@ -29459,6 +30249,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 303.53 358.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 303.53 358.14 90)
 			(hide yes)
 			(show_name no)
@@ -29568,7 +30369,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -29630,6 +30431,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 210.82 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 210.82 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -29733,6 +30545,17 @@
 				)
 			)
 		)
+		(property "Comment" ""
+			(at 69.85 377.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "83d5ac35-159f-4488-834e-603c4fa14636")
 		)
@@ -29813,6 +30636,17 @@
 			)
 		)
 		(property "TME_SYMBOL" "T491D476K010AT"
+			(at 467.36 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 467.36 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -29994,6 +30828,17 @@
 				)
 			)
 		)
+		(property "Comment" ""
+			(at 243.84 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "65d4ddd1-9835-4f9a-a6c5-b2fba183513b")
 		)
@@ -30032,7 +30877,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~70k"
+		(property "Value" "130k"
 			(at 298.45 342.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30077,6 +30922,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 295.91 341.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 295.91 341.63 0)
 			(hide yes)
 			(show_name no)
@@ -30248,6 +31104,17 @@
 			)
 		)
 		(property "TME_SYMBOL" "EEEFT1A151AR"
+			(at 435.61 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 435.61 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -30507,6 +31374,17 @@
 				)
 			)
 		)
+		(property "Comment" ""
+			(at 212.09 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ae837158-23c1-4984-bd29-c9b35a866693")
 		)
@@ -30528,7 +31406,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -30600,6 +31478,17 @@
 				)
 			)
 		)
+		(property "Comment" ""
+			(at 99.06 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7ae8ec02-3b96-495d-ba54-2cd3f30e14aa")
 		)
@@ -30621,10 +31510,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "acd8ad0e-f035-454a-830a-52d393d275e0")
 		(property "Reference" "R44"
@@ -30693,6 +31582,17 @@
 				)
 			)
 		)
+		(property "Comment" ""
+			(at 76.2 295.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "14868725-4885-4a42-ba1b-fa01a5f9330a")
 		)
@@ -30714,7 +31614,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -30753,7 +31653,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "already have"
 			(at 497.84 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -30776,6 +31676,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 497.84 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 497.84 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -30950,6 +31861,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 93.98 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 93.98 87.63 90)
 			(hide yes)
 			(show_name no)
@@ -31209,6 +32131,17 @@
 				)
 			)
 		)
+		(property "Comment" ""
+			(at 231.14 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4ef0b53d-f985-4b12-9fa0-d4d3a1daa17c")
 		)
@@ -31290,6 +32223,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 39.37 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 39.37 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -31822,6 +32766,17 @@
 				)
 			)
 		)
+		(property "Comment" ""
+			(at 483.87 323.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f48f9fac-9f83-4360-a7c0-8a0ecc34ab5e")
 		)
@@ -31921,7 +32876,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -31981,6 +32936,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 331.47 313.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 331.47 313.69 90)
 			(hide yes)
 			(show_name no)
@@ -32162,6 +33128,17 @@
 				)
 			)
 		)
+		(property "Comment" ""
+			(at 426.72 323.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6ce66af8-dd98-4dba-a999-f857801573fe")
 		)
@@ -32255,6 +33232,17 @@
 				)
 			)
 		)
+		(property "Comment" ""
+			(at 330.2 351.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "53e48c03-5e32-4bfc-b77d-a1e3e59060ee")
 		)
@@ -32338,6 +33326,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 64.77 372.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 64.77 372.11 0)
 			(hide yes)
 			(show_name no)
@@ -32444,7 +33443,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
@@ -32516,6 +33515,17 @@
 				)
 			)
 		)
+		(property "Comment" ""
+			(at 127 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e0160379-1d97-4ebc-ac92-b8ccef15a424")
 		)
@@ -32554,7 +33564,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "20k"
 			(at 293.37 353.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32599,6 +33609,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 295.91 351.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 295.91 351.79 0)
 			(hide yes)
 			(show_name no)
@@ -32695,6 +33716,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 111.76 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 111.76 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -32876,6 +33908,17 @@
 				)
 			)
 		)
+		(property "Comment" ""
+			(at 93.98 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "11fc5766-5bb6-4d9d-bd06-60d5501c49fa")
 		)
@@ -32897,7 +33940,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -32969,6 +34012,17 @@
 				)
 			)
 		)
+		(property "Comment" ""
+			(at 336.55 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6401c790-0ef3-4b78-9936-3ea14078afd0")
 		)
@@ -32990,7 +34044,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -33052,6 +34106,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 402.59 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 402.59 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -33143,6 +34208,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 441.96 287.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 441.96 287.02 0)
 			(hide yes)
 			(show_name no)
@@ -33248,6 +34324,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 495.3 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 495.3 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -33429,6 +34516,17 @@
 				)
 			)
 		)
+		(property "Comment" ""
+			(at 119.38 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f0266a16-6fed-4ef2-b245-a2b346b3d223")
 		)
@@ -33528,7 +34626,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
@@ -33588,6 +34686,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 116.84 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 116.84 66.04 90)
 			(hide yes)
 			(show_name no)
@@ -33691,6 +34800,17 @@
 				)
 			)
 		)
+		(property "Comment" ""
+			(at 295.91 361.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b274fc4f-d64c-47fd-a8ec-6a86a6183004")
 		)
@@ -33712,7 +34832,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -33774,6 +34894,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 195.58 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 195.58 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -34033,6 +35164,17 @@
 				)
 			)
 		)
+		(property "Comment" ""
+			(at 208.28 342.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "09d2aedd-17fa-49b3-acf7-3b1cd7d96bb0")
 		)
@@ -34070,7 +35212,7 @@
 				)
 			)
 		)
-		(property "Value" "LM2576HVS-0.5"
+		(property "Value" "LM2576-5.0WU"
 			(at 245.11 224.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34126,6 +35268,17 @@
 				)
 			)
 		)
+		(property "Comment" ""
+			(at 245.11 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "089cb1f4-9c87-4b7b-a4f3-23b6ee660e70")
 		)
@@ -34156,7 +35309,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -34218,6 +35371,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 336.55 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 336.55 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -34321,6 +35485,17 @@
 				)
 			)
 		)
+		(property "Comment" ""
+			(at 251.46 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "62eb6144-01bf-4dee-9342-01d73bfc9541")
 		)
@@ -34403,6 +35578,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 245.11 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 245.11 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -34671,7 +35857,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -34733,6 +35919,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 293.37 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 293.37 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -34934,6 +36131,17 @@
 				)
 			)
 		)
+		(property "Comment" ""
+			(at 283.21 337.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "41981326-f52f-40ff-9178-92d2d96a57d2")
 		)
@@ -35095,6 +36303,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 106.68 353.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 106.68 353.06 0)
 			(hide yes)
 			(show_name no)
@@ -35369,7 +36588,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
@@ -35431,6 +36650,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 321.31 351.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 321.31 351.79 0)
 			(hide yes)
 			(show_name no)
@@ -35696,7 +36926,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -35768,6 +36998,17 @@
 				)
 			)
 		)
+		(property "Comment" "already have"
+			(at 119.38 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "9"
 			(uuid "a0fe59bc-f0d5-4c24-a176-d0a5c3d82568")
 		)
@@ -35813,7 +37054,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -35875,6 +37116,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 425.45 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 425.45 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -35978,6 +37230,17 @@
 				)
 			)
 		)
+		(property "Comment" ""
+			(at 275.59 308.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "59791ece-9bd3-4869-887c-6ad7c761feec")
 		)
@@ -35999,7 +37262,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -36061,6 +37324,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 264.16 350.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "already have"
 			(at 264.16 350.52 0)
 			(hide yes)
 			(show_name no)
@@ -36245,6 +37519,17 @@
 				)
 			)
 		)
+		(property "Comment" ""
+			(at 257.81 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "de608f21-f778-4703-bc6a-b27277b5f760")
 		)
@@ -36406,6 +37691,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 497.84 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 497.84 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -36593,7 +37889,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -36655,6 +37951,17 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
+			(at 115.57 335.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 115.57 335.28 0)
 			(hide yes)
 			(show_name no)
@@ -37215,6 +38522,17 @@
 			)
 		)
 		(property "TME_SYMBOL" "EEEFT1A151AR"
+			(at 287.02 308.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
 			(at 287.02 308.61 0)
 			(hide yes)
 			(show_name no)
