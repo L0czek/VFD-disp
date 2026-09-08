@@ -5,7 +5,7 @@ adc_hv = ADC(3)
 
 disable_f = Pin(6, Pin.OUT, value=1) 
 disable_hv = Pin(9, Pin.OUT, value=1)
-
+mosfet = Pin(8, Pin.OUT, value = 0)
 
 spi = SPI(
     1,
@@ -38,7 +38,10 @@ def print_voltages():
 print_voltages()
 time.sleep(1)
 disable_f.value(0)
-#disable_hv.value(0)
+time.sleep(1)
+print_voltages()
+mosfet.on()
+print("f_pwm on")
 
 for i in range(7):
     time.sleep(1)
