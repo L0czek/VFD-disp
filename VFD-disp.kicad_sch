@@ -9082,17 +9082,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "req: VPP <= 27V\n150k/10k -> 24V\n130k/10k -> 21V"
-		(exclude_from_sim no)
-		(at 304.292 330.454 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "23b7c1b1-3550-4e9a-83a1-8cb6275671a1")
-	)
-	(text "F = 3.1V"
+	(text "F = 2.8V"
 		(exclude_from_sim no)
 		(at 338.836 295.402 0)
 		(effects
@@ -9235,12 +9225,6 @@
 		(uuid "3c84bb6d-1060-49c2-87d4-f35e54764f4e")
 	)
 	(junction
-		(at 495.3 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "486f0620-4cdd-48c8-b677-2cb95f07baf1")
-	)
-	(junction
 		(at 215.9 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9263,6 +9247,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "56a62645-35eb-418b-ac89-fe1b9794c934")
+	)
+	(junction
+		(at 491.49 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5793cc41-9fe7-4437-8b7d-1dfbd4fc2495")
 	)
 	(junction
 		(at 433.07 234.95)
@@ -10224,6 +10214,16 @@
 	)
 	(wire
 		(pts
+			(xy 491.49 144.78) (xy 495.3 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02dbfcca-9aad-473b-96c9-a0621ff389cf")
+	)
+	(wire
+		(pts
 			(xy 397.51 234.95) (xy 402.59 234.95)
 		)
 		(stroke
@@ -10981,16 +10981,6 @@
 			(type default)
 		)
 		(uuid "32e5d27d-0220-4a7c-9118-6ca5501b18c6")
-	)
-	(wire
-		(pts
-			(xy 495.3 154.94) (xy 497.84 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "335a5704-6cf2-46db-973a-84d27cd838c9")
 	)
 	(wire
 		(pts
@@ -13034,7 +13024,7 @@
 	)
 	(wire
 		(pts
-			(xy 490.22 154.94) (xy 495.3 154.94)
+			(xy 490.22 154.94) (xy 491.49 154.94)
 		)
 		(stroke
 			(width 0)
@@ -13171,6 +13161,16 @@
 			(type default)
 		)
 		(uuid "c7524b6d-a813-4b84-8e31-ec0b428cd0de")
+	)
+	(wire
+		(pts
+			(xy 491.49 154.94) (xy 497.84 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c87ee316-e552-4693-ac95-e2457c1ab405")
 	)
 	(wire
 		(pts
@@ -13664,7 +13664,7 @@
 	)
 	(wire
 		(pts
-			(xy 495.3 152.4) (xy 495.3 154.94)
+			(xy 491.49 152.4) (xy 491.49 154.94)
 		)
 		(stroke
 			(width 0)
@@ -17450,7 +17450,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "12f76d47-ad5e-4258-b1ed-15a790fd327c")
 		(property "Reference" "#PWR0104"
 			(at 111.76 116.84 0)
@@ -17464,13 +17463,14 @@
 			)
 		)
 		(property "Value" "VPP"
-			(at 111.76 108.8969 0)
+			(at 110.744 108.966 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -30867,7 +30867,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "130k"
+		(property "Value" "2.7k"
 			(at 298.45 342.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34248,7 +34248,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 495.3 148.59 0)
+		(at 491.49 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -34259,7 +34259,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4bf379e-78b1-41dc-b618-f979e553e5b7")
 		(property "Reference" "R2"
-			(at 497.078 147.3778 0)
+			(at 494.03 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34269,8 +34269,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 497.078 149.8021 0)
+		(property "Value" "0R"
+			(at 494.03 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34281,7 +34281,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 493.522 148.59 90)
+			(at 489.712 148.59 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34292,7 +34292,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 495.3 148.59 0)
+			(at 491.49 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34303,7 +34303,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 495.3 148.59 0)
+			(at 491.49 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34314,7 +34314,7 @@
 			)
 		)
 		(property "TME_SYMBOL" ""
-			(at 495.3 148.59 0)
+			(at 491.49 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34325,7 +34325,7 @@
 			)
 		)
 		(property "Comment" ""
-			(at 495.3 148.59 0)
+			(at 491.49 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34735,7 +34735,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1.2k"
 			(at 298.45 363.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37626,7 +37626,7 @@
 		(fields_autoplaced yes)
 		(uuid "f128e24d-e22d-4f60-86e4-879d3544a180")
 		(property "Reference" "R1"
-			(at 499.618 147.3778 0)
+			(at 500.38 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37636,8 +37636,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 499.618 149.8021 0)
+		(property "Value" "0R"
+			(at 500.38 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
