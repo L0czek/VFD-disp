@@ -660,7 +660,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,
@@ -678,7 +678,7 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -702,19 +702,7 @@
           "group_by": false,
           "label": "Opis",
           "name": "Description",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "EXCLUDE_FROM_BOM",
-          "name": "${EXCLUDE_FROM_BOM}",
           "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Comment",
-          "name": "Comment",
-          "show": true
         }
       ],
       "filter_string": "",
@@ -773,7 +761,7 @@
         "uuid": "cae6bc37-1dab-478a-ae03-a930606a6e90"
       }
     ],
-    "used_designators": "U9,U16",
+    "used_designators": "RV4,L2,#PWR1,#PWR17,#PWR26-28,#PWR34,#PWR41,#PWR57-58,#PWR64-65,#PWR67,#PWR69-70,#PWR84,#PWR113-114,#PWR121-123,C9,C15-16,C23,C33,C42-44,D4-5,D7-10,R10-14,R23-24,R27,R33-37,Q2,U4,U7,U9",
     "variants": []
   },
   "sheets": [
