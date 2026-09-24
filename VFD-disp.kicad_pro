@@ -538,9 +538,9 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
+        "track_width": 0.2,
         "tuning_profile": "",
-        "via_diameter": 0.4,
+        "via_diameter": 0.45,
         "via_drill": 0.2,
         "wire_width": 6
       },
@@ -552,7 +552,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
-        "via_diameter": 0.4,
+        "via_diameter": 0.45,
         "via_drill": 0.2
       },
       {
@@ -610,7 +610,7 @@
       "netlist": "",
       "plot": "gerber/",
       "pos_files": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "VFD-disp.dsn",
       "step": "",
       "svg": "",
       "vrml": ""
@@ -703,6 +703,30 @@
           "label": "Opis",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer Part",
+          "name": "Manufacturer Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Comment",
+          "name": "Comment",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -761,7 +785,7 @@
         "uuid": "cae6bc37-1dab-478a-ae03-a930606a6e90"
       }
     ],
-    "used_designators": "RV4,L2,#PWR1,#PWR17,#PWR26-28,#PWR34,#PWR41,#PWR57-58,#PWR64-65,#PWR67,#PWR69-70,#PWR84,#PWR113-114,#PWR121-123,C9,C15-16,C23,C33,C42-44,D4-5,D7-10,R10-14,R23-24,R27,R33-37,Q2,U4,U7,U9",
+    "used_designators": "RV4,L2,#PWR1,#PWR17,#PWR26-28,#PWR34,#PWR41,#PWR57-58,#PWR64-65,#PWR67,#PWR69-70,#PWR84,#PWR113-114,#PWR121-123,D4-5,D7-10,C9,C15-16,C23,C33,C42-44,R10-14,R23-24,R27,R33-37,Q2,U4,U7,U9",
     "variants": []
   },
   "sheets": [
