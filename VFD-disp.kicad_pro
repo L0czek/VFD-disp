@@ -785,13 +785,25 @@
         "uuid": "cae6bc37-1dab-478a-ae03-a930606a6e90"
       }
     ],
-    "used_designators": "RV4,L2,#PWR1,#PWR17-18,#PWR26-28,#PWR34,#PWR41,#PWR57-58,#PWR64-65,#PWR67,#PWR69-70,#PWR84,#PWR113-114,#PWR121-124,D4-5,D7-10,C9,C15-16,C23,C33-34,C42-44,R10-14,R23-24,R27,R33-37,Q2,U4,U7,U9",
+    "used_designators": "SW1,IVLM3\\-5/1,RV1,RV4,L2-3,HV5812WG1-2,#PWR1-18,#PWR24-36,#PWR41-43,#PWR46,#PWR48-53,#PWR57-58,#PWR64-70,#PWR75,#PWR77-84,#PWR86-95,#PWR97-99,#PWR104-115,#PWR117-118,#PWR121-124,D2-5,D7-10,C1-4,C9-13,C15-24,C26-28,C30,C33-34,C37-44,R1-2,R7,R9-20,R23-27,R33-37,R40-41,F4-5,Q2,U1,U3-5,U7-11,U14-15",
     "variants": []
   },
   "sheets": [
     [
       "cae6bc37-1dab-478a-ae03-a930606a6e90",
       "VFD-disp"
+    ],
+    [
+      "a059847e-4118-4d6f-b71e-8a9013377bc0",
+      "VFD"
+    ],
+    [
+      "3e4e5ce4-04f8-4c61-8093-9bfaac6c0181",
+      "Power"
+    ],
+    [
+      "27aa36b0-b731-4f5f-8f72-467016157761",
+      "esp32"
     ]
   ],
   "text_variables": {},
